@@ -1,0 +1,155 @@
+Prospera Brand Engineering Framework
+Phase 1 – Brand Diagnosis Exception Policy
+
+==================================================
+
+DOCUMENT IDENTITY
+
+DOCUMENT_NAME: EXCEPTION
+DOCUMENT_TYPE: Phase Exception Policy
+REPOSITORY_NAME: prospera-brand-engineering-framework
+PHASE: Phase 1 – Brand Diagnosis
+VERSION: 1.0.0
+STATUS: Active
+EFFECTIVE_DATE: 2026-01-19
+
+==================================================
+
+PURPOSE
+
+This document defines the exception policy
+for Phase 1 – Brand Diagnosis.
+
+Exceptions allow limited deviation from
+standard diagnostic execution
+without constituting a violation.
+
+Exceptions do not negate lifecycle requirements.
+They must be explicit, bounded, and documented.
+
+==================================================
+
+EXCEPTION PRINCIPLE
+
+An exception is a governed deviation,
+not an informal shortcut.
+
+All exceptions must:
+- Preserve diagnostic intent
+- Maintain external grounding
+- Be explicitly declared and recorded
+
+Implicit exceptions are not permitted.
+
+==================================================
+
+PERMISSIBLE EXCEPTION CATEGORIES
+
+Phase 1 permits exceptions only
+under the following categories:
+
+1. Data Accessibility Constraint
+2. Market Novelty Constraint
+3. Time-Bound Discovery Constraint
+
+No other exception categories are valid.
+
+==================================================
+
+CATEGORY 1: DATA ACCESSIBILITY CONSTRAINT
+
+Definition:
+External data sources are partially unavailable
+due to platform limitations, legal restrictions,
+or early-stage market opacity.
+
+Permitted Adjustments:
+- Use of proxy indicators
+- Expanded qualitative sampling
+- Temporary exclusion of non-critical signals
+
+Requirements:
+- Constraint must be explicitly stated
+- Substituted indicators must be documented
+- Impact on diagnostic confidence noted
+
+==================================================
+
+CATEGORY 2: MARKET NOVELTY CONSTRAINT
+
+Definition:
+The brand operates in a newly formed
+or rapidly emerging market
+with limited historical or comparative data.
+
+Permitted Adjustments:
+- Reduced competitive benchmarking
+- Emphasis on adjacent market signals
+- Scenario-based diagnostic framing
+
+Requirements:
+- Novelty condition explicitly declared
+- Adjacent market rationale documented
+- Assumptions clearly labeled as provisional
+
+==================================================
+
+CATEGORY 3: TIME-BOUND DISCOVERY CONSTRAINT
+
+Definition:
+Phase 1 is intentionally time-boxed
+to enable early-stage decision gating.
+
+Permitted Adjustments:
+- Narrowed diagnostic scope
+- Prioritization of high-impact signals
+- Deferred secondary indicators
+
+Requirements:
+- Time boundary explicitly defined
+- Deferred elements listed
+- Follow-up diagnostic commitment recorded
+
+==================================================
+
+NON-PERMISSIBLE EXCEPTIONS
+
+The following are never valid exceptions:
+
+- Founder belief or authority
+- Internal consensus
+- Historical success claims
+- Anecdotal reassurance
+
+These constitute evidence substitution
+and are classified as violations.
+
+==================================================
+
+EXCEPTION DOCUMENTATION REQUIREMENTS
+
+All exceptions must include:
+
+- Exception category
+- Scope of deviation
+- Rationale
+- Impact on diagnostic confidence
+- Review or expiration condition
+
+Undocumented exceptions are invalid.
+
+==================================================
+
+RELATIONSHIP TO VIOLATIONS
+
+Exceptions differ from violations:
+
+- Exceptions are declared and bounded
+- Violations are implicit or ungoverned
+
+An exception exceeding its declared bounds
+automatically becomes a violation.
+
+==================================================
+
+END OF PHASE 1 EXCEPTION POLICY
