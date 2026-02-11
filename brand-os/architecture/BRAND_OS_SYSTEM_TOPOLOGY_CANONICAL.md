@@ -155,17 +155,96 @@ No implementation may weaken or bypass the defined layering.
 SECTION 8. TOPOLOGY DIAGRAM (TEXTUAL)
 ────────────────────────────────────────
 
-[Insert ASCII topology block here]
+────────────────────────────────────────
+SECTION 8. TOPOLOGY DIAGRAM (TEXTUAL – AUDITABLE)
+────────────────────────────────────────
+
+SYSTEM TOPOLOGY STRUCTURE
+
++--------------------------------------------------+
+| HUMAN LAYER                                      |
+|--------------------------------------------------|
+| Brand Owner | Enterprise Reviewer | Auditor     |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| AI AGENT LAYER                                   |
+|--------------------------------------------------|
+| Evaluator | Scoring Agent | Violation Monitor   |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| GOVERNANCE API LAYER                             |
+|--------------------------------------------------|
+| SubmitTransitionRequest()                        |
+| EvaluateCurrentState()                           |
+| RequestScoringEvaluation()                       |
+| FetchViolationReport()                           |
+| FetchAuditTrail()                                |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| TRANSITION CONTROL LAYER                         |
+|--------------------------------------------------|
+| Entry Validator                                  |
+| Exit Validator                                   |
+| Downgrade Controller                             |
+| Freeze Guard                                     |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| CORE GOVERNANCE KERNEL                           |
+|--------------------------------------------------|
+| Phase State Machine                              |
+| Violation Engine                                 |
+| Maturity Scoring Model                           |
+| Invariant Registry                               |
+| Authority Model                                  |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| RUNTIME STATE LAYER                              |
+|--------------------------------------------------|
+| Current Phase                                    |
+| Score Snapshot                                   |
+| Violation Registry                               |
+| Transition History                               |
+| Governance Cost                                  |
++--------------------------------------------------+
+                     │
+                     ▼
++--------------------------------------------------+
+| AUDIT & IMMUTABILITY LAYER                       |
+|--------------------------------------------------|
+| Immutable Audit Log                              |
+| Version Ledger                                   |
+| Freeze Registry                                  |
+| Evolution History                                |
++--------------------------------------------------+
+
+All state mutation must traverse layers sequentially.
+Layer skipping is prohibited.
 
 ────────────────────────────────────────
 SECTION 9. VISUAL DIAGRAM REFERENCE
 ────────────────────────────────────────
 
-Diagram file:
-brand-os/architecture/diagrams/BRAND_OS_SYSTEM_TOPOLOGY_v1.0.svg
+Visual diagram file location:
 
-The visual diagram MUST remain structurally identical to the textual topology.
-Any divergence invalidates architecture integrity.
+/brand-os/architecture/diagrams/BRAND_OS_SYSTEM_TOPOLOGY_v1.0.svg
+
+The SVG diagram MUST remain structurally consistent
+with the textual topology declared in Section 8.
+
+Any divergence between textual and visual topology
+constitutes architectural inconsistency
+and invalidates canonical integrity.
+
 
 ────────────────────────────────────────
 END OF DOCUMENT
