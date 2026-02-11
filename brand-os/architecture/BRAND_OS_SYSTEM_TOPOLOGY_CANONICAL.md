@@ -152,6 +152,22 @@ and AI integration must conform to this structure.
 No implementation may weaken or bypass the defined layering.
 
 ────────────────────────────────────────
+SECTION 8. TOPOLOGY DIAGRAM (TEXTUAL)
+────────────────────────────────────────
+
+[Insert ASCII topology block here]
+
+────────────────────────────────────────
+SECTION 9. VISUAL DIAGRAM REFERENCE
+────────────────────────────────────────
+
+Diagram file:
+brand-os/architecture/diagrams/BRAND_OS_SYSTEM_TOPOLOGY_v1.0.svg
+
+The visual diagram MUST remain structurally identical to the textual topology.
+Any divergence invalidates architecture integrity.
+
+────────────────────────────────────────
 END OF DOCUMENT
 BRAND_OS_SYSTEM_TOPOLOGY_CANONICAL
 ────────────────────────────────────────
