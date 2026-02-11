@@ -1,0 +1,25 @@
+# Prospera Brand OS
+# Phase Threshold Configuration
+# Version: 1.0
+# This file defines minimum maturity scores required
+# for phase transition eligibility.
+# Modifying this file requires governance version review.
+
+version: "1.0"
+
+thresholds:
+  phase_2: 40
+  phase_3: 60
+  phase_4: 70
+  phase_5: 80
+  phase_6: 90
+
+rules:
+  require_sequential_progression: true
+  block_on_severity: "BLOCK"
+  downgrade_on_severity: "CRITICAL"
+
+metadata:
+  governed_by: "MATURITY_SCORING_ENGINE_SPECIFICATION"
+  canonical_alignment: true
+  freeze_sensitive: true
