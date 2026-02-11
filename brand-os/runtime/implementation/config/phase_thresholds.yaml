@@ -1,25 +1,76 @@
-# Prospera Brand OS
-# Phase Threshold Configuration
-# Version: 1.0
-# This file defines minimum maturity scores required
-# for phase transition eligibility.
-# Modifying this file requires governance version review.
-
-version: "1.0"
-
-thresholds:
-  phase_2: 40
-  phase_3: 60
-  phase_4: 70
-  phase_5: 80
-  phase_6: 90
-
-rules:
-  require_sequential_progression: true
-  block_on_severity: "BLOCK"
-  downgrade_on_severity: "CRITICAL"
+# ────────────────────────────────────────────────
+# PROSPERA BRAND OS
+# PHASE THRESHOLD CONFIGURATION (CANONICAL)
+# ────────────────────────────────────────────────
+#
+# DOCUMENT ID: PBOS-RUNTIME-THRESHOLD-CANONICAL
+# VERSION: 1.0.0
+# STATUS: Active – Governance Controlled
+# AUTHORITY LEVEL: Runtime Governance Binding
+#
+# This file defines the canonical maturity thresholds required
+# for phase transition eligibility within the Prospera Brand OS.
+#
+# Any modification to this file constitutes governance-impacting change
+# and MUST follow version increment policy.
+#
+# ────────────────────────────────────────────────
 
 metadata:
+  system: "Prospera Brand OS"
   governed_by: "MATURITY_SCORING_ENGINE_SPECIFICATION"
-  canonical_alignment: true
+  authority_binding: true
   freeze_sensitive: true
+  version_policy_required: true
+  backward_compatibility_required: true
+
+invariants:
+  - "Phase progression must be sequential"
+  - "No transition allowed under BLOCK severity violation"
+  - "CRITICAL violation triggers mandatory downgrade review"
+  - "Threshold reduction requires MAJOR version increment"
+
+thresholds:
+  phase_2:
+    minimum_score: 40
+    description: "Transition from Foundation to Structured Positioning"
+
+  phase_3:
+    minimum_score: 60
+    description: "Transition from Positioning to Authority Evidence"
+
+  phase_4:
+    minimum_score: 70
+    description: "Transition to Collaboration Eligibility"
+
+  phase_5:
+    minimum_score: 80
+    description: "Transition to Enterprise Execution Readiness"
+
+  phase_6:
+    minimum_score: 90
+    description: "Transition to Governable Scaling"
+
+transition_rules:
+  require_sequential_progression: true
+  enforce_violation_blocking: true
+  downgrade_on_severity:
+    CRITICAL: "Trigger transition re-evaluation"
+    BLOCK: "Immediate transition denial"
+
+governance_controls:
+  change_requires:
+    - version_increment
+    - changelog_update
+    - governance_review
+  unauthorized_change_effect: "System invalidation"
+
+evolution_policy:
+  compatible_threshold_increase: "MINOR"
+  incompatible_threshold_decrease: "MAJOR"
+  metadata_only_change: "PATCH"
+
+compliance_assertion:
+  canonical_alignment_required: true
+  audit_traceability_required: true
+  deviation_invalidates_phase_claim: true
