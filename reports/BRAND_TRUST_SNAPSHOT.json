@@ -1,0 +1,10 @@
+﻿{
+  "snapshot_id": "BRAND-SS-20260301-001",
+  "timestamp": "2026-03-01T15:30:00Z",
+  "aggregated_equity": {
+    "ip_asset_backing": "2300 PROS",
+    "verification_source": "VAL-20260301-ESG001"
+  },
+  "brand_health_index": "88.5/100",
+  "status": "STABLE_GROWTH"
+}
