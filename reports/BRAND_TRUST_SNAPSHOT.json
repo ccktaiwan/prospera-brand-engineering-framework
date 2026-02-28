@@ -1,10 +1,20 @@
 ﻿{
-  "snapshot_id": "BRAND-SS-20260301-001",
-  "timestamp": "2026-03-01T15:30:00Z",
-  "aggregated_equity": {
-    "ip_asset_backing": "2300 PROS",
-    "verification_source": "VAL-20260301-ESG001"
+  "snapshot_metadata": {
+    "snapshot_id": "BRAND-SS-20260301-001",
+    "document_id": "BEF-L3-DATA-SNAPSHOT-001",
+    "timestamp": "2026-03-01T15:30:00Z",
+    "epoch": "Phase-6-Operational"
   },
-  "brand_health_index": "88.5/100",
-  "status": "STABLE_GROWTH"
+  "brand_equity_aggregation": {
+    "source_valuation_id": "VAL-20260301-ESG001",
+    "backing_asset_value": "2300 PROS",
+    "asset_classification": "CAT-B_ALGORITHMIC_CORE"
+  },
+  "trust_index_metrics": {
+    "brand_health_score": "88.5/100",
+    "status": "STABLE_GROWTH"
+  },
+  "certification": {
+    "governor_gid": "GID-F-2026-0001"
+  }
 }
