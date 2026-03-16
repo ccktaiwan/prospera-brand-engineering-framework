@@ -1,10 +1,7 @@
-﻿# 模組一：外部品牌分析框架 (External Brand Intelligence)
+﻿# 模組一：External Brand Intelligence
 
-## 1. 戰略掃描範疇
-* **市場宏觀趨勢 (PESTEL)**：識別影響品牌長遠發展的政策、經濟、社會與技術變革。
-* **競爭對手心理戰圖**：分析對手在消費者心中的「佔位」，尋找被忽視的心理缺口。
-* **消費者痛點與願望清單**：挖掘消費者未被滿足的感性需求。
-
-## 2. 交付成果
-* **品牌競爭態勢圖**：展現品牌在產業中的優勢與威脅。
-* **市場切入機會點 (Opportunity Map)**：具體的策略藍海建議。
+1. **Macro Environment (PESTEL)**
+2. **Industry Structure (Porter Five Forces)** - 識別產業權力結構。
+3. **Competitor Position Map** - 競爭對手心理佔位分析。
+4. **Consumer Insight** - 挖掘深層感性需求。
+5. **Brand White Space Map** - 找出尚未被佔領的市場藍海。
