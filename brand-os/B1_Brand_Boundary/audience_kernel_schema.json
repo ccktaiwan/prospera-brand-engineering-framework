@@ -1,0 +1,19 @@
+{
+  "title": "Prospera Audience Kernel Schema",
+  "version": "v1.0",
+  "created": "2026-04-29",
+  "segments": [
+    {"id": "AK-01", "name": "探索者", "name_en": "Explorer"},
+    {"id": "AK-02", "name": "深度學習者", "name_en": "Deep Learner"},
+    {"id": "AK-03", "name": "社交連結者", "name_en": "Social Connector"},
+    {"id": "AK-04", "name": "決策導向者", "name_en": "Decision Maker"},
+    {"id": "AK-05", "name": "忠誠擁護者", "name_en": "Loyal Advocate"}
+  ],
+  "platform_funnel": {
+    "sequence": "Google → Meta → Wix → LINE",
+    "google": "搜索與意圖捕獲",
+    "meta": "共鳴與社群擴散",
+    "wix": "信任建立與確認",
+    "line": "轉換與關係維護"
+  }
+}
